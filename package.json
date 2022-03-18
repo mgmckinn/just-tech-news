@@ -1,0 +1,25 @@
+{
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "description": "login in for tech news site",
+  "main": "server.js",
+  
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgmckinn/just-tech-news.git"
+  },
+  "author": "Mitch McKinney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgmckinn/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/mgmckinn/just-tech-news#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  }
+}
