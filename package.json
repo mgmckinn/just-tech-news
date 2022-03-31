@@ -1,25 +1,23 @@
 {
-  "name": "just-tech-news",
+  "name": "newsfeed-api",
   "version": "1.0.0",
-  "description": "login in for tech news site",
+  "description": "",
   "main": "server.js",
-  
   "scripts": {
-    "start": "node server.js"
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mgmckinn/just-tech-news.git"
-  },
-  "author": "Mitch McKinney",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mgmckinn/just-tech-news/issues"
-  },
-  "homepage": "https://github.com/mgmckinn/just-tech-news#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.17.0"
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }
